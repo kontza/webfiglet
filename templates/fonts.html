@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Figlet Fonts</title>
+<h1 style="font-family: sans-serif;">List of Available Fonts</h1>
+
+<table>
+{%for font in fonts.keys()%}
+    <tr>
+    <td>{{font}}</td>
+    <td><textarea style="font-family: monospace;" rows={{fonts[font].lines}} cols={{fonts[font].cols}}>{{fonts[font].payload}}</textarea></td>
+    </tr>
+{%endfor%}
+</table>
