@@ -1,6 +1,5 @@
 # Introduction
 A naïve web server listing all fonts prodived by [pyfiglet](https://github.com/pwaller/pyfiglet).
-höpöpöp
 
 # How to Run
 1. These commands expect you to use the Fish shell.
